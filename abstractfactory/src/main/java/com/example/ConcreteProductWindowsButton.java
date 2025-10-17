@@ -1,9 +1,6 @@
 package com.example;
 
-public class ConcreteProductWindowsButton implements AbstractProductButton{
-
-    public ConcreteProductWindowsButton() {
-    }
+class ConcreteProductWindowsButton implements AbstractProductButton{
     @Override
     public void paint(){
         System.out.println("You have created WindowsButton.");

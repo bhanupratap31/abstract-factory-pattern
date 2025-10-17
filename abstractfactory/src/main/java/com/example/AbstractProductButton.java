@@ -1,6 +1,6 @@
-package com;
+package com.example;
 
-public interface AbstraceProductButton {
+interface AbstractProductButton {
     void paint(); 
     void onClick(); 
 }

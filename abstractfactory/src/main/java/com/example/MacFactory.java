@@ -1,13 +1,13 @@
 package com.example;
 
-class WindowsFactory implements GUIFactory {   
+class MacFactory implements GUIFactory{
     @Override 
     public AbstractProductButton createButton (){
-        return new ConcreteProductWindowsButton(); 
+        return new ConcreteProductMacButton(); 
     }
 
     @Override 
     public AbstractProductCheckbox createCheckbox (){
-        return new ConcreteProductWindowsCheckbox(); 
+        return new ConcreteProductMacCheckbox(); 
     }
 }

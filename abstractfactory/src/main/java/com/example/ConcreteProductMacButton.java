@@ -1,6 +1,6 @@
 package com.example;
 
-public class ConcreteProductMacButton implements AbstraceProductButton {
+class ConcreteProductMacButton implements AbstractProductButton {
     @Override
     public void paint(){
         System.out.println("You have created MacButton.");

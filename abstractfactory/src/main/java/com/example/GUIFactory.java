@@ -1,7 +1,7 @@
 package com.example;
 
 
-public interface GUIFactory {
+interface GUIFactory {
     AbstractProductButton createButton();
     AbstractProductCheckbox createCheckbox();
 }
